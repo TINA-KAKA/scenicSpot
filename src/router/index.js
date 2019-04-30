@@ -4,8 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Main from '@/components/main/Main'
 import Login from '@/components/login/Login'
 import Home from '@/components/page/Home'
-
-
+import Instruction from "@/components/page/Instruction";
 Vue.use(Router)
 
 export default new Router({
@@ -25,7 +24,11 @@ export default new Router({
           path: '/main/home',
           name: 'home',
           component: Home,
-        }
+        },{
+          path: '/main/instruction',
+          name: 'instruction',
+          component: Instruction,
+        },
       ]
     },
   ]
