@@ -1,0 +1,2 @@
+[2018-06-14 14:52:19] layer "index03.png": Duplicate path: index03.png
+[2018-06-14 14:52:19] layer "index03.png": Duplicate path: index03.png
