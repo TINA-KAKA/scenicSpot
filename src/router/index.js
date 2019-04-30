@@ -5,6 +5,10 @@ import Main from '@/components/main/Main'
 import Login from '@/components/login/Login'
 import Home from '@/components/page/Home'
 import Instruction from "@/components/page/Instruction";
+import Search from "@/components/page/Search";
+import User from "@/components/page/User";
+
+import PictureList from "@/components/page/PictureList";
 Vue.use(Router)
 
 export default new Router({
@@ -28,6 +32,18 @@ export default new Router({
           path: '/main/instruction',
           name: 'instruction',
           component: Instruction,
+        },{
+          path: '/main/search',
+          name: 'search',
+          component: Search,
+        },{
+          path: '/main/user',
+          name: 'user',
+          component: User,
+        },{
+          path: '/main/picturelist',
+          name: 'picturelist',
+          component: PictureList,
         },
       ]
     },
